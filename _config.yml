@@ -11,19 +11,19 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: http://guarani.github.io/
+baseurl: /
+title: Paul Von Schrottky 
+author: Paul Von Schrottky
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+email: paulvonschrottky@gmail.com
+github: guarani # username
+twitter: pschrottky
+linkedin: paulvs
+stackoverflow: users/1305067/paulvs   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
+disqus: paulvonschrottky
 google_analytics: UA-69391421-1
 
 
