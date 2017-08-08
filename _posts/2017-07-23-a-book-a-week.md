@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Book a Week 
+comments: true
 tags:
 - Books 
 - Tags
