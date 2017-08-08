@@ -1,3 +1,9 @@
+---
+layout: default
+comments: true
+# other options
+---
+
 In this tutorial, I'll show you how to use the versatile `URLProtocol` class to intercept network requests inside your app, independently of whether the request originated from a `URLSession`, a wrapper library such as Alamofire, an `NSURLConnection`, or an Ajax request inside a web view.
 
 Real-world applications include: 
