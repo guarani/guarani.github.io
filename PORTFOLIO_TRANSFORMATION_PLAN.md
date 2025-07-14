@@ -185,6 +185,12 @@
 
 ---
 
+## **Phase 8: Assorted** 
+
+- [ ] WIll this support light and dark mode? It would be nice to have it use the system preference but give users the option to override. Or do what most modern websites do, especially those in my industry.
+
+
+
 ## **Key Projects to Showcase**
 
 ### **Day One at Automattic**

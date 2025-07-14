@@ -14,7 +14,7 @@ highlights:
 app_store_url: "https://apps.apple.com/app/day-one/id1044867788"
 github_url: ""
 screenshot: "/assets/images/day-one-screenshot.jpg"
-icon: "/assets/images/day-one-icon.png"
+icon: "/assets/images/dayone-icon.png"
 featured: true
 challenges: |
   Working on Day One presented unique challenges in modernizing a legacy codebase while maintaining backward compatibility for millions of users.

@@ -12,7 +12,7 @@
   app_store_url: "https://apps.apple.com/app/day-one/id1044867788"
   github_url: ""
   screenshot: "/assets/images/day-one-screenshot.jpg"
-  icon: "/assets/images/day-one-icon.png"
+  icon: "/assets/images/dayone-icon.png"
   featured: true
 
 - id: verse-block-wordpress
