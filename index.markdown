@@ -1,5 +1,7 @@
 ---
 layout: home
+description: "Senior iOS Engineer with 10+ years experience building apps for millions. Previously at Automattic (Day One) & WordPress Mobile. Swift, SwiftUI expert available for US remote work. No visa sponsorship needed."
+keywords: "Senior iOS Engineer, Remote iOS Developer, Swift Developer, SwiftUI Expert, Automattic, Day One, WordPress Mobile, Paraguay iOS Engineer, US Remote Work"
 ---
 
 <div class="hero-section">

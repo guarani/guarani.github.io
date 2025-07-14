@@ -21,10 +21,14 @@
 title: Paul Von Schrottky - Senior iOS Engineer
 email: paulvonschrottky@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Senior iOS Engineer | Swift, SwiftUI | Remote-First | Available via US-based LLC.
-  Previously Day One at Automattic & WordPress Mobile. 5+ years building iOS apps for millions of users.
+  Senior iOS Engineer specializing in Swift, SwiftUI, and remote iOS development. 
+  Previously at Automattic (Day One) & WordPress Mobile. 10+ years building iOS apps 
+  for millions of users. Available for US remote work via LLC - no visa sponsorship needed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://guarani.github.io" # the base hostname & protocol for your site
+
+# SEO and Social
+keywords: "Senior iOS Engineer, Swift Developer, SwiftUI, Remote iOS Developer, iOS Consultant, Automattic, WordPress Mobile, Paraguay Developer"
 twitter_username: pschrottky
 github_username: guarani
 linkedin_username: paulvs
@@ -33,6 +37,25 @@ stackoverflow: users/1305067/paulvs
 # Author and profile
 author: Paul Von Schrottky
 profile_image: "/assets/images/profile.png"
+location: "Asunción, Paraguay"
+timezone: "America/Asuncion"
+
+# Professional details for structured data
+job_title: "Senior iOS Engineer"
+company: "Independent Contractor"
+years_experience: 10
+specialties: ["Swift", "SwiftUI", "UIKit", "iOS", "Remote Work", "Team Leadership"]
+
+# Social links for structured data
+social:
+  - platform: "GitHub"
+    url: "https://github.com/guarani"
+  - platform: "LinkedIn" 
+    url: "https://linkedin.com/in/paulvs"
+  - platform: "Twitter"
+    url: "https://twitter.com/pschrottky"
+  - platform: "Stack Overflow"
+    url: "https://stackoverflow.com/users/1305067/paulvs"
 
 # Collections
 collections:

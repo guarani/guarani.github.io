@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+description: "Paul Von Schrottky - Senior iOS Engineer from Paraguay with 10+ years experience. Led teams at Automattic (Day One), generated $100K revenue at WordPress Mobile. Available for US remote work via LLC."
+keywords: "Senior iOS Engineer Bio, Remote iOS Developer Paraguay, Automattic Day One Engineer, WordPress Mobile Lead, Swift SwiftUI Expert, Paraguay to Silicon Valley"
 ---
 
 # About Paul Von Schrottky

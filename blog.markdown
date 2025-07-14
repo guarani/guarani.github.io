@@ -2,6 +2,8 @@
 layout: page
 title: Blog
 permalink: /blog/
+description: "iOS development blog by Paul Von Schrottky - Technical insights, Swift tutorials, remote work experiences, and mobile development best practices from 10+ years of iOS engineering."
+keywords: "iOS Development Blog, Swift Tutorials, URLProtocol iOS, SwiftUI Best Practices, Remote iOS Development, Mobile Engineering Insights, iOS Technical Writing"
 ---
 
 # iOS Development Blog

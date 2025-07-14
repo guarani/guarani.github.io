@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: "iOS projects portfolio by Paul Von Schrottky - Day One at Automattic, WordPress Mobile Verse Block, Banking apps, and more. SwiftUI, StoreKit, and iOS development expertise showcased."
+keywords: "iOS Projects Portfolio, Day One Automattic, WordPress Mobile iOS, SwiftUI Projects, StoreKit Implementation, iOS Banking Apps, Senior iOS Engineer Work"
 ---
 
 # My iOS Projects

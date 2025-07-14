@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: {{ site.url }}/sitemap.xml
+
+# Block access to unnecessary directories
+Disallow: /assets/
+Allow: /assets/images/
+Allow: /assets/*.pdf 
