@@ -103,7 +103,11 @@ Whether you're a **Silicon Valley startup** looking to move fast, an **establish
 **Ready to experience what true remote iOS expertise looks like?**
 
 <div class="cta-section">
-  <a href="mailto:{{ site.email }}" class="btn btn-primary">Start the Conversation</a>
+  <div class="about-cta-buttons">
+    <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
+    <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+    <a href="mailto:{{ site.email }}" class="btn btn-tertiary">Email Me</a>
+  </div>
   <p>I typically respond within 24 hours, often much faster</p>
 </div>
 

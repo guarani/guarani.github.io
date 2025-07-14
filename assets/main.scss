@@ -205,7 +205,8 @@ p {
 }
 
 /* CTA Button Groups */
-.work-cta-buttons {
+.work-cta-buttons,
+.about-cta-buttons {
   display: flex;
   gap: var(--space-md);
   justify-content: center;
@@ -214,11 +215,13 @@ p {
 }
 
 @media (max-width: 480px) {
-  .work-cta-buttons {
+  .work-cta-buttons,
+  .about-cta-buttons {
     flex-direction: column;
   }
   
-  .work-cta-buttons .btn {
+  .work-cta-buttons .btn,
+  .about-cta-buttons .btn {
     width: 100%;
   }
 }

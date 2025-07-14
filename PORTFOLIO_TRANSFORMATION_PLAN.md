@@ -145,12 +145,13 @@
 
 ## **Phase 5: Contact & CTAs** 
 
-### **5.1 Contact Options**
-- [ ] Update contact section with:
-  - Calendly integration (if you have it)
-  - Professional email
-  - LinkedIn
-  - Timezone mention
+### **5.1 Contact Options** ✅ COMPLETE
+- [x] Calendly integration (https://calendly.com/pschrottky) for direct call scheduling
+- [x] "Schedule Call" as primary CTA in hero section  
+- [x] Enhanced "Work With Me" section with dual CTAs (Schedule Call + Email)
+- [x] Professional email contact options maintained
+- [x] Timezone mention ("Available US hours") included
+- [x] Mobile-responsive button layout with proper styling
 
 ### **5.2 Resume Integration**
 - [ ] Update resume for senior iOS remote positioning
@@ -203,6 +204,7 @@
 ## **Phase 8: Assorted** 
 
 - [ ] WIll this support light and dark mode? It would be nice to have it use the system preference but give users the option to override. Or do what most modern websites do, especially those in my industry.
+- [ ] Find a way to highlight how my name is part of the WordPress release here: https://wordpress.org/news/2021/07/tatum/
 
 
 

@@ -17,8 +17,8 @@ layout: home
     
     <div class="hero-ctas">
       <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
-      <a href="mailto:{{ site.email }}" class="btn btn-secondary">Email Me</a>
-      <a href="/about" class="btn btn-tertiary">Learn More</a>
+      <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+      <a href="mailto:{{ site.email }}" class="btn btn-tertiary">Email Me</a>
     </div>
     
     <div class="social-links">
@@ -230,7 +230,8 @@ layout: home
     <p><strong>Ready to discuss your iOS project?</strong></p>
     <div class="work-cta-buttons">
       <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
-      <a href="mailto:{{ site.email }}" class="btn btn-secondary">Email Me</a>
+      <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+      <a href="mailto:{{ site.email }}" class="btn btn-tertiary">Email Me</a>
     </div>
     <p class="work-note">Available US hours • Typically respond within 24 hours</p>
   </div>
