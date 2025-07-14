@@ -11,15 +11,15 @@ Here are some of the key projects I've worked on throughout my career as a Senio
 <div class="projects-grid">
   {% for project in site.data.projects %}
     <div class="project-card">
-      <div class="project-header">
-        {% if project.icon %}
-          <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
-        {% endif %}
-        <div class="project-title-area">
-          <h3>{{ project.title }}</h3>
-          <p class="project-subtitle">{{ project.subtitle }}</p>
-        </div>
-      </div>
+             <div class="project-header">
+         {% if project.icon %}
+           <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
+         {% endif %}
+         <div class="project-title-area">
+           <h3><a href="/projects/{{ project.id }}/">{{ project.title }}</a></h3>
+           <p class="project-subtitle">{{ project.subtitle }}</p>
+         </div>
+       </div>
       
       <p class="project-description">{{ project.description }}</p>
       

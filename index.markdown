@@ -40,7 +40,7 @@ layout: home
           <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
         {% endif %}
         <div class="project-title-area">
-          <h3>{{ project.title }}</h3>
+          <h3><a href="/projects/{{ project.id }}/">{{ project.title }}</a></h3>
           <p class="project-subtitle">{{ project.subtitle }}</p>
         </div>
       </div>

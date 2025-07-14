@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<article class="project-detail">
+  <header class="project-hero">
+    <div class="project-header-content">
+      {% if page.icon %}
+        <img src="{{ page.icon }}" alt="{{ page.title }}" class="project-hero-icon">
+      {% endif %}
+      
+      <div class="project-hero-text">
+        <h1>{{ page.title }}</h1>
+        <p class="project-hero-subtitle">{{ page.subtitle }}</p>
+        
+        <div class="project-meta">
+          <span class="project-role"><strong>Role:</strong> {{ page.role }}</span>
+          {% if page.impact %}
+            <span class="project-impact"><strong>Impact:</strong> {{ page.impact }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="project-links-hero">
+      {% if page.app_store_url and page.app_store_url != "" %}
+        <a href="{{ page.app_store_url }}" class="btn btn-primary" target="_blank">App Store</a>
+      {% endif %}
+      {% if page.github_url and page.github_url != "" %}
+        <a href="{{ page.github_url }}" class="btn btn-secondary" target="_blank">GitHub</a>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="project-content">
+    <section class="project-overview">
+      <h2>Overview</h2>
+      <p class="project-description">{{ page.description }}</p>
+      
+      {% if page.technologies %}
+        <div class="project-technologies">
+          <h3>Technologies Used</h3>
+          <div class="tech-tags">
+            {% for tech in page.technologies %}
+              <span class="tech-tag">{{ tech }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </section>
+
+    {% if page.highlights %}
+      <section class="project-highlights">
+        <h2>Key Achievements</h2>
+        <ul class="highlights-list">
+          {% for highlight in page.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.challenges %}
+      <section class="project-challenges">
+        <h2>Technical Challenges & Solutions</h2>
+        <div class="challenges-content">
+          {{ page.challenges | markdownify }}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if page.results %}
+      <section class="project-results">
+        <h2>Results & Impact</h2>
+        <div class="results-content">
+          {{ page.results | markdownify }}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if content and content != blank %}
+      <section class="project-details">
+        <h2>Technical Details</h2>
+        <div class="project-body">
+          {{ content }}
+        </div>
+      </section>
+    {% endif %}
+  </div>
+
+  <footer class="project-footer">
+    <div class="project-navigation">
+      <a href="/projects/" class="btn btn-secondary">← Back to Projects</a>
+      <a href="mailto:{{ site.email }}" class="btn btn-primary">Discuss This Project</a>
+    </div>
+  </footer>
+</article> 

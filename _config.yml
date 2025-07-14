@@ -34,6 +34,12 @@ stackoverflow: users/1305067/paulvs
 author: Paul Von Schrottky
 profile_image: "/assets/images/profile.png"
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
 # Build settings
 theme: minima
 plugins:
