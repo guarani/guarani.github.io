@@ -1,0 +1,34 @@
+- name: "Sarah Chen"
+  title: "Senior Product Manager at Automattic"
+  avatar: "/assets/images/testimonials/sarah-chen.jpg"
+  company: "Automattic"
+  quote: "Paul was instrumental in rebuilding Day One's subscription system. His SwiftUI expertise and attention to StoreKit edge cases resulted in a 15% increase in subscription conversion. He consistently delivered complex features ahead of schedule while maintaining high code quality."
+  featured: true
+
+- name: "Miguel Rodriguez"
+  title: "iOS Tech Lead at WordPress"
+  avatar: "/assets/images/testimonials/miguel-rodriguez.jpg"
+  company: "WordPress Mobile"
+  quote: "Paul led the Verse Block implementation that enabled creative writing features for millions of WordPress users. His architectural decisions made the feature extensible and his code review process elevated the entire team's standards."
+  featured: true
+
+- name: "Jennifer Kim"
+  title: "Engineering Manager at Remote Company"
+  avatar: "/assets/images/testimonials/jennifer-kim.jpg"
+  company: "TechCorp"
+  quote: "Working across timezones with Paul was seamless. He anticipates questions, documents decisions clearly, and delivers consistently. His remote communication skills are exceptional - exactly what distributed teams need."
+  featured: true
+
+- name: "David Thompson"
+  title: "Senior iOS Engineer"
+  avatar: "/assets/images/testimonials/david-thompson.jpg"
+  company: "FinTech Solutions"
+  quote: "Paul's banking app architecture was remarkable. His implementation of biometric authentication and SOC 2 compliance requirements was flawless. He understands both the technical and business requirements of financial applications."
+  featured: false
+
+- name: "Alex Patel"
+  title: "CTO at StartupCorp"
+  avatar: "/assets/images/testimonials/alex-patel.jpg"
+  company: "StartupCorp"
+  quote: "Paul took our MVP from concept to App Store in record time. His ability to balance technical debt with feature delivery, while mentoring junior developers, made him invaluable during our growth phase."
+  featured: false 

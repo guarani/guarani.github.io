@@ -79,6 +79,127 @@ layout: home
   {% endfor %}
 </div>
 
+## Technical Expertise
+
+<div class="skills-section">
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3>🍎 iOS Development</h3>
+      <div class="skills-list">
+        <div class="skill-item">
+          <span class="skill-name">Swift</span>
+          <span class="skill-years">8+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">SwiftUI</span>
+          <span class="skill-years">4+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">UIKit</span>
+          <span class="skill-years">10+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Combine</span>
+          <span class="skill-years">3+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">StoreKit</span>
+          <span class="skill-years">5+ years</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <h3>🏗️ Architecture & Patterns</h3>
+      <div class="skills-list">
+        <div class="skill-item">
+          <span class="skill-name">MVVM</span>
+          <span class="skill-years">6+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Clean Architecture</span>
+          <span class="skill-years">4+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Dependency Injection</span>
+          <span class="skill-years">5+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Unit Testing</span>
+          <span class="skill-years">8+ years</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <h3>🔧 Tools & Platforms</h3>
+      <div class="skills-list">
+        <div class="skill-item">
+          <span class="skill-name">Xcode & Instruments</span>
+          <span class="skill-years">10+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Git & GitHub</span>
+          <span class="skill-years">10+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Sentry & Crashlytics</span>
+          <span class="skill-years">6+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Fastlane & CI/CD</span>
+          <span class="skill-years">5+ years</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-category">
+      <h3>🌐 Backend & APIs</h3>
+      <div class="skills-list">
+        <div class="skill-item">
+          <span class="skill-name">RESTful APIs</span>
+          <span class="skill-years">10+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">GraphQL</span>
+          <span class="skill-years">3+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">WebSocket</span>
+          <span class="skill-years">4+ years</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">OAuth & Security</span>
+          <span class="skill-years">6+ years</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+## What Colleagues Say
+
+<div class="testimonials-section">
+  <div class="testimonials-grid">
+    {% for testimonial in site.data.testimonials %}
+      {% if testimonial.featured %}
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <p>"{{ testimonial.quote }}"</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <h4>{{ testimonial.name }}</h4>
+            <p>{{ testimonial.title }}</p>
+            <p class="company">{{ testimonial.company }}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 ## Work With Me
 
 <div class="work-with-me-section">
