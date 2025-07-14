@@ -1,34 +1,35 @@
-- name: "Sarah Chen"
-  title: "Senior Product Manager at Automattic"
-  avatar: "/assets/images/testimonials/sarah-chen.jpg"
+- name: "Tanner Stokes"
+  title: "Lead of Apps Infrastructure at Automattic"
   company: "Automattic"
-  quote: "Paul was instrumental in rebuilding Day One's subscription system. His SwiftUI expertise and attention to StoreKit edge cases resulted in a 15% increase in subscription conversion. He consistently delivered complex features ahead of schedule while maintaining high code quality."
+  quote: "I had the pleasure of working with Paul for several years at Automattic—first as an individual contributor, and later as a fellow team lead. Paul brings deep expertise in Apple technologies and consistently delivers high-quality solutions that are both elegant and maintainable. Whether we were collaborating on tough bugs, architecture decisions, or navigating tight deadlines, I could always count on him to be prompt, thoughtful, and thorough."
+  featured: true
+  
+- name: "Thuy Copeland"
+  title: "Engineering Manager at Day One (Automattic)"
+  company: "Automattic"
+  quote: "On Day One, Paul built the Subscription Management feature for Apple and Stripe subs as an individually-led project, and contributed to Global Navigation on iOS where he built a new iPad experience. He's comfortable using AI to get better productivity and rapidly prototypes features. He was thoughtful in his work and communicated well in writing—a key part of being successful in a remote environment!"
   featured: true
 
-- name: "Miguel Rodriguez"
-  title: "iOS Tech Lead at WordPress"
-  avatar: "/assets/images/testimonials/miguel-rodriguez.jpg"
-  company: "WordPress Mobile"
-  quote: "Paul led the Verse Block implementation that enabled creative writing features for millions of WordPress users. His architectural decisions made the feature extensible and his code review process elevated the entire team's standards."
+- name: "Carlos García Prim"
+  title: "Software Engineer at Automattic"
+  company: "Automattic"
+  quote: "I can confidently say he's one of the most talented senior iOS developers I've worked with. We collaborated on the React Native version of the Gutenberg project, a technically challenging effort requiring deep knowledge of both React Native and iOS. Paul was a key contributor, consistently delivering high-quality work. He brings deep expertise, thoughtful execution, and a collaborative mindset to every project."
   featured: true
 
-- name: "Jennifer Kim"
-  title: "Engineering Manager at Remote Company"
-  avatar: "/assets/images/testimonials/jennifer-kim.jpg"
-  company: "TechCorp"
-  quote: "Working across timezones with Paul was seamless. He anticipates questions, documents decisions clearly, and delivers consistently. His remote communication skills are exceptional - exactly what distributed teams need."
-  featured: true
-
-- name: "David Thompson"
-  title: "Senior iOS Engineer"
-  avatar: "/assets/images/testimonials/david-thompson.jpg"
-  company: "FinTech Solutions"
-  quote: "Paul's banking app architecture was remarkable. His implementation of biometric authentication and SOC 2 compliance requirements was flawless. He understands both the technical and business requirements of financial applications."
+- name: "Povilas Staškus"
+  title: "Senior iOS Engineer at Automattic | WooCommerce.com"
+  company: "Automattic"
+  quote: "Paul was my team lead and made onboarding smooth and easy. He was very responsive, always showed interest, and kept projects organized and moving. He is a strong iOS engineer and was not afraid to take on more technical projects when needed. He broke down big projects into smaller tasks, collected feedback, and shared learning opportunities with the team."
   featured: false
 
-- name: "Alex Patel"
-  title: "CTO at StartupCorp"
-  avatar: "/assets/images/testimonials/alex-patel.jpg"
-  company: "StartupCorp"
-  quote: "Paul took our MVP from concept to App Store in record time. His ability to balance technical debt with feature delivery, while mentoring junior developers, made him invaluable during our growth phase."
+- name: "Olivier Halligon"
+  title: "Freelance iOS Platform Engineer"
+  company: "Freelance"
+  quote: "Paul has very good technical knowledge of iOS development, as well as React Native—being always dedicated to produce high quality work—but he also has great people and communication skills that makes him a delight to work with. He's good at seeing the big picture and at proposing great scalable solutions in even complicated and challenging projects."
+  featured: false
+
+- name: "Antonis Lilis"
+  title: "Mobile Engineer at Automattic"
+  company: "Automattic"
+  quote: "I worked with Paul in a variety of roles—as his lead, as a fellow engineer, and as a peer lead. No matter the context, Paul was always someone I could rely on for his calm presence, technical depth, and thoughtful approach to both people and code. He brings deep expertise in iOS development paired with a collaborative mindset and genuine kindness that makes working with him a joy."
   featured: false 
