@@ -118,4 +118,61 @@
 
 .project-links {
   margin-top: 1rem;
-} 
+}
+
+/* Work With Me Section */
+.work-with-me-section {
+  margin: 3rem 0;
+}
+
+.work-advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.advantage-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.advantage-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-card h3 {
+  margin: 0 0 0.75rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.advantage-card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.work-cta {
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #007AFF;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.work-cta p:first-child {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.work-note {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #666;
+}

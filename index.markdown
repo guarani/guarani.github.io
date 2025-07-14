@@ -79,4 +79,36 @@ layout: home
   {% endfor %}
 </div>
 
+## Work With Me
+
+<div class="work-with-me-section">
+  <div class="work-advantages">
+    <div class="advantage-card">
+      <h3>🌎 Remote-First Experience</h3>
+      <p><strong>5+ years at Automattic</strong> - the company that pioneered distributed work. I've shipped features to millions of users while working across timezones with teams in San Francisco, London, and beyond.</p>
+    </div>
+    
+    <div class="advantage-card">
+      <h3>🇺🇸 US Business Ready</h3>
+      <p><strong>No visa sponsorship needed.</strong> I operate via US-based LLC for seamless contracting, or through platforms like Deel. Clean, simple business setup that works just like hiring any US contractor.</p>
+    </div>
+    
+    <div class="advantage-card">
+      <h3>⏰ Timezone Flexibility</h3>
+      <p><strong>Paraguay (UTC-3)</strong> offers excellent overlap with US timezones. I regularly work US hours and have extensive experience with async communication and distributed team collaboration.</p>
+    </div>
+    
+    <div class="advantage-card">
+      <h3>📱 Production iOS Expertise</h3>
+      <p><strong>10+ years shipping iOS apps</strong> including subscription systems at scale, StoreKit implementation, and leading mobile teams. From startup MVPs to enterprise security - I've built it all.</p>
+    </div>
+  </div>
+  
+  <div class="work-cta">
+    <p><strong>Ready to discuss your iOS project?</strong></p>
+    <a href="mailto:{{ site.email }}" class="btn btn-primary">Start the Conversation</a>
+    <p class="work-note">Typically respond within 24 hours</p>
+  </div>
+</div>
+
 ## Latest Blog Posts
