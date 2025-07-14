@@ -31,6 +31,52 @@ layout: home
 
 ## Featured Projects
 
-Coming soon: Showcase of iOS apps and key projects including Day One, Verse Block, and banking applications.
+<div class="projects-grid">
+  {% for project in site.data.projects %}
+    {% if project.featured %}
+    <div class="project-card">
+      <div class="project-header">
+        {% if project.icon %}
+          <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
+        {% endif %}
+        <div class="project-title-area">
+          <h3>{{ project.title }}</h3>
+          <p class="project-subtitle">{{ project.subtitle }}</p>
+        </div>
+      </div>
+      
+      <p class="project-description">{{ project.description }}</p>
+      
+      <div class="project-details">
+        <p><strong>Role:</strong> {{ project.role }}</p>
+        {% if project.impact %}
+          <p><strong>Impact:</strong> {{ project.impact }}</p>
+        {% endif %}
+      </div>
+      
+      <div class="project-technologies">
+        {% for tech in project.technologies %}
+          <span class="tech-tag">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      
+      <ul class="project-highlights">
+        {% for highlight in project.highlights %}
+          <li>{{ highlight }}</li>
+        {% endfor %}
+      </ul>
+      
+      <div class="project-links">
+        {% if project.app_store_url != "" %}
+          <a href="{{ project.app_store_url }}" class="btn btn-primary" target="_blank">App Store</a>
+        {% endif %}
+        {% if project.github_url != "" %}
+          <a href="{{ project.github_url }}" class="btn btn-secondary" target="_blank">GitHub</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
 ## Latest Blog Posts

@@ -1,0 +1,121 @@
+---
+---
+
+@import "minima";
+
+/* Portfolio Styles */
+.hero-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.hero-tagline {
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  margin-bottom: 1.5rem;
+}
+
+.hero-ctas {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007AFF;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #666;
+  color: white;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.project-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.project-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.project-title-area h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.project-subtitle {
+  color: #666;
+  margin: 0;
+}
+
+.project-description {
+  margin-bottom: 1rem;
+}
+
+.project-details {
+  margin-bottom: 1rem;
+}
+
+.project-technologies {
+  margin-bottom: 1rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  margin: 0.125rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.project-highlights {
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+} 
