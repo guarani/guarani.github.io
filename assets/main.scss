@@ -191,6 +191,38 @@ p {
   box-shadow: var(--shadow-medium);
 }
 
+.btn-tertiary {
+  background-color: transparent;
+  color: var(--label-secondary);
+  border: 2px solid var(--separator);
+}
+
+.btn-tertiary:hover {
+  background-color: var(--background-secondary);
+  color: var(--label-primary);
+  border-color: var(--label-secondary);
+  transform: translateY(-1px);
+}
+
+/* CTA Button Groups */
+.work-cta-buttons {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: var(--space-md);
+}
+
+@media (max-width: 480px) {
+  .work-cta-buttons {
+    flex-direction: column;
+  }
+  
+  .work-cta-buttons .btn {
+    width: 100%;
+  }
+}
+
 /* Social Links */
 .social-links {
   display: flex;

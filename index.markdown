@@ -16,8 +16,9 @@ layout: home
     </p>
     
     <div class="hero-ctas">
-      <a href="mailto:{{ site.email }}" class="btn btn-primary">Contact Me</a>
-      <a href="/about" class="btn btn-secondary">Learn More</a>
+      <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
+      <a href="mailto:{{ site.email }}" class="btn btn-secondary">Email Me</a>
+      <a href="/about" class="btn btn-tertiary">Learn More</a>
     </div>
     
     <div class="social-links">
@@ -227,8 +228,11 @@ layout: home
   
   <div class="work-cta">
     <p><strong>Ready to discuss your iOS project?</strong></p>
-    <a href="mailto:{{ site.email }}" class="btn btn-primary">Start the Conversation</a>
-    <p class="work-note">Typically respond within 24 hours</p>
+    <div class="work-cta-buttons">
+      <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
+      <a href="mailto:{{ site.email }}" class="btn btn-secondary">Email Me</a>
+    </div>
+    <p class="work-note">Available US hours • Typically respond within 24 hours</p>
   </div>
 </div>
 
