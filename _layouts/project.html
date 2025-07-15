@@ -2,49 +2,20 @@
 layout: default
 ---
 
-{% if page.icon %}
-<img src="{{ page.icon }}" alt="{{ page.title }}" style="width: 64px; height: 64px; margin-bottom: 16px;">
-{% endif %}
+<div class="project-header">
+  {% if page.icon %}
+  <img src="{{ page.icon }}" alt="{{ page.title }}" class="project-icon">
+  {% endif %}
+  
+  <h1>{{ page.title }}</h1>
+  
+  {% if page.subtitle %}
+  <p class="project-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+  
+  {% if page.description %}
+  <p class="project-description">{{ page.description }}</p>
+  {% endif %}
+</div>
 
-# {{ page.title }}
-## {{ page.subtitle }}
-
-{{ page.description }}
-
-**Role:** {{ page.role }}  
-{% if page.impact %}**Impact:** {{ page.impact }}{% endif %}
-
-**Technologies:** {{ page.technologies | join: ", " }}
-
-{% if page.app_store_url != "" or page.github_url != "" %}
-{% if page.app_store_url != "" %}[App Store]({{ page.app_store_url }}){:target="_blank"}{% endif %}
-{% if page.github_url != "" %} | [GitHub]({{ page.github_url }}){:target="_blank"}{% endif %}
-{% endif %}
-
----
-
-{% if page.highlights %}
-## Key Achievements
-
-{% for highlight in page.highlights %}
-- {{ highlight }}
-{% endfor %}
-{% endif %}
-
-{% if page.challenges %}
-## Technical Challenges & Solutions
-
-{{ page.challenges }}
-{% endif %}
-
-{% if page.results %}
-## Results & Impact
-
-{{ page.results }}
-{% endif %}
-
-{{ content }}
-
----
-
-[← Back to Projects](/projects) 
+{{ content }} 

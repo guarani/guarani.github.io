@@ -2,107 +2,34 @@
 layout: page
 title: About
 permalink: /about/
-description: "Paul Von Schrottky - Senior iOS Engineer from Paraguay with 10+ years experience. Led teams at Automattic (Day One), generated $100K revenue at WordPress Mobile. Available for US remote work via LLC."
-keywords: "Senior iOS Engineer Bio, Remote iOS Developer Paraguay, Automattic Day One Engineer, WordPress Mobile Lead, Swift SwiftUI Expert, Paraguay to Silicon Valley"
+description: "Paul Von Schrottky - Senior iOS Engineer from Paraguay with 10+ years experience. Led teams at Automattic (Day One), generated $100K revenue at WordPress Mobile."
+keywords: "Senior iOS Engineer, Remote iOS Developer Paraguay, Automattic Day One Engineer, WordPress Mobile Lead, Swift SwiftUI Expert"
 ---
 
-# About Paul Von Schrottky
+# Paul Von Schrottky
+## Senior iOS Engineer
 
-## From Paraguay to Silicon Valley Impact - Remotely
+**12+ years building iOS apps for millions of users. Based in Paraguay, working remotely with global teams.**
 
-I'm a **Senior iOS Engineer** with over 10 years of experience building applications that reach millions of users worldwide. What makes my story unique? I've achieved Silicon Valley-level impact while working remotely from Paraguay, proving that geography doesn't limit excellence.
+### Experience
 
-## My Remote Leadership Journey
+**Automattic (5+ years) - Day One & WordPress**
+- Implemented a powerful new 3-column layout for the award-winning Day One app
+- Led distributed mobile teams 
+- Contributed to the open-source Gutenberg project 
 
-### The Automattic Experience (5+ Years)
-**Where Remote Work Became My Superpower**
+**WeightWatchers - Health**
+- Shipped banking apps for major banks such as Itaú PY and BBVA PY
 
-Joining **Automattic** - the fully distributed company behind WordPress.com - was transformative. Working on **Day One**, the award-winning journaling app, I learned what true remote excellence looks like:
+**Roshka - Banking Applications**
+- Shipped banking apps for major banks such as Itaú PY and BBVA PY
 
-- **Led critical subscription infrastructure rebuilding** using SwiftUI, resulting in 15% conversion improvement
-- **Managed complex StoreKit integrations** serving millions of paying users
-- **Coordinated across 15+ timezones** with teams in San Francisco, London, Tokyo, and beyond
-- **Mentored junior developers remotely** using pair programming and structured code reviews
-- **Owned end-to-end feature delivery** without traditional oversight - pure async execution
+### Setup
+- Paraguay timezone (UTC-3) with US business hours availability
+- 5+ years US tax and business compliance
 
-The experience taught me that **remote work isn't just about location flexibility** - it's about **owning outcomes, communicating with precision, and delivering consistently** across cultures and timezones.
-
-### WordPress Mobile Leadership
-**Turning Technical Skills into Business Impact**
-
-As **Mobile Lead** for WordPress Mobile, I combined technical expertise with business acumen:
-
-- **Generated $100K in revenue** through strategic mobile plan implementations
-- **Led cross-functional initiatives** with marketing, design, and backend teams
-- **Delivered the Verse Block feature** enabling creative writing for millions of users
-- **Architected scalable solutions** that supported WordPress's massive user base
-
-This role proved that **remote leadership** means taking initiative, driving results, and building consensus without in-person meetings.
-
-## Why US Companies Choose Remote International Talent
-
-### Technical Excellence Without Geographic Limits
-
-My **banking application work** demonstrates enterprise-level capabilities:
-- **Built from scratch** with SOC 2 compliance and biometric authentication
-- **Implemented real-time fraud detection** serving thousands of financial transactions
-- **Delivered bulletproof security** meeting US financial regulations
-
-### Business-Ready Setup
-
-**Zero bureaucratic overhead** for US companies:
-- **US-based LLC** for direct contracting (no visa sponsorship needed)
-- **Deel platform integration** for streamlined payments
-- **US business hours availability** from Paraguay (UTC-3 timezone)
-- **5+ years of US tax and business compliance** experience
-
-### Remote Work Advantage
-
-**Paraguay location provides unique benefits**:
-- **Lower cost structure** = better value for US companies
-- **Cultural alignment** with Western business practices
-- **Excellent timezone overlap** with US East/Central time
-- **Stable internet infrastructure** and modern development setup
-
-## Technical Leadership Philosophy
-
-### Clean Architecture Advocate
-I believe in **sustainable code** that scales with teams:
-- **MVVM and Clean Architecture** for maintainable iOS apps
-- **SwiftUI-first approach** with UIKit when needed
-- **Comprehensive unit testing** and CI/CD integration
-- **Documentation-driven development** for remote team success
-
-### User-Centric Development
-**10+ years** has taught me that **great code serves great user experiences**:
-- **Performance optimization** using Instruments and profiling
-- **Accessibility-first design** ensuring inclusive applications  
-- **StoreKit expertise** maximizing subscription and purchase flows
-- **Crash monitoring mastery** with Sentry and Crashlytics
-
-## The Remote Work Difference
-
-Working with me means:
-
-**🎯 Outcome-Focused Delivery**  
-I own features end-to-end, from conception to App Store release.
-
-**📋 Transparent Communication**  
-Daily updates, clear documentation, and proactive problem-solving.
-
-**⏰ Timezone Flexibility**  
-Available for US business hours with async execution for deep work.
-
-**🚀 Startup to Enterprise Experience**  
-From MVP launches to million-user applications - I've scaled across the spectrum.
-
-## Let's Build the Future Together
-
-The future of work is distributed. The best talent isn't constrained by geography. I've spent **5+ years proving this at Automattic** and want to bring that same excellence to your iOS projects.
-
-Whether you're a **Silicon Valley startup** looking to move fast, an **established company** needing to scale mobile, or a **remote-first organization** building the next generation of applications - I bring the experience, skills, and remote-work mastery to exceed your expectations.
-
-**Ready to experience what true remote iOS expertise looks like?**
+### Skills
+Swift, SwiftUI, UIKit, StoreKit, MVVM, Clean Architecture, Unit Testing, CI/CD
 
 <div class="cta-section">
   <div class="about-cta-buttons">
@@ -110,9 +37,8 @@ Whether you're a **Silicon Valley startup** looking to move fast, an **establish
     <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
     <a href="mailto:{{ site.email }}" class="btn btn-tertiary">Email Me</a>
   </div>
-  <p>I typically respond within 24 hours, often much faster</p>
 </div>
 
 ---
 
-*Based in Asunción, Paraguay 🇵🇾 | Working with teams worldwide 🌍*
+*Asunción, Paraguay 🇵🇾 | Working worldwide 🌍*
