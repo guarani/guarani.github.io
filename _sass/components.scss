@@ -1,0 +1,47 @@
+/* Minimal fixes only - let minima handle everything else */
+
+/* Featured work with icons */
+.featured-project {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.featured-project img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+/* Project page icons */
+.project-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+/* Simple button styles */
+.cta-buttons {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0366d6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.cta-buttons a:hover {
+  background-color: #0256cc;
+  color: white;
+  text-decoration: none;
+} 
