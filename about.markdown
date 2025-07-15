@@ -31,12 +31,10 @@ keywords: "Senior iOS Engineer, Remote iOS Developer Paraguay, Automattic Day On
 ### Skills
 Swift, SwiftUI, UIKit, StoreKit, MVVM, Clean Architecture, Unit Testing, CI/CD
 
-<div class="cta-section">
-  <div class="about-cta-buttons">
-    <a href="https://calendly.com/pschrottky" class="btn btn-primary" target="_blank">Schedule Call</a>
-    <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
-    <a href="mailto:{{ site.email }}" class="btn btn-tertiary">Email Me</a>
-  </div>
+<div class="cta-buttons">
+  <a href="https://calendly.com/pschrottky" target="_blank">Schedule Call</a>
+  <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" target="_blank">Download Resume</a>
+  <a href="mailto:{{ site.email }}">Email Me</a>
 </div>
 
 ---

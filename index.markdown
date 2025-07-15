@@ -13,7 +13,11 @@ keywords: "Senior iOS Engineer, Remote iOS Developer, Swift Developer, SwiftUI E
 
 Previously: **Day One at Automattic** & **WordPress Mobile**
 
-[Schedule Call](https://calendly.com/pschrottky){:target="_blank"} | [Download Resume](/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf){:target="_blank"} | [Email Me](mailto:{{ site.email }})
+<div class="cta-buttons">
+  <a href="https://calendly.com/pschrottky" target="_blank">Schedule Call</a>
+  <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" target="_blank">Download Resume</a>
+  <a href="mailto:{{ site.email }}">Email Me</a>
+</div>
 
 ---
 
@@ -49,4 +53,7 @@ US-based LLC • No visa sponsorship needed • 10+ years distributed team exper
 
 **Ready to discuss your iOS project?**
 
-[Schedule Call](https://calendly.com/pschrottky){:target="_blank"} | [Email Me](mailto:{{ site.email }})
+<div class="cta-buttons">
+  <a href="https://calendly.com/pschrottky" target="_blank">Schedule Call</a>
+  <a href="mailto:{{ site.email }}">Email Me</a>
+</div>
