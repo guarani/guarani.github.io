@@ -1,13 +1,5 @@
 /* Minimal fixes only - let minima handle everything else */
 
-/* Basic Grid for projects (only if minima doesn't provide) */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 20px 0;
-}
-
 /* Featured work with icons */
 .featured-project {
   display: flex;

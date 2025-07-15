@@ -2,70 +2,25 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: "iOS projects portfolio by Paul Von Schrottky - Day One at Automattic, WordPress Mobile Verse Block, Banking apps, and more. SwiftUI, StoreKit, and iOS development expertise showcased."
-keywords: "iOS Projects Portfolio, Day One Automattic, WordPress Mobile iOS, SwiftUI Projects, StoreKit Implementation, iOS Banking Apps, Senior iOS Engineer Work"
+description: "iOS projects portfolio by Paul Von Schrottky - Day One at Automattic, WordPress Mobile, Banking apps, and more. SwiftUI and iOS development expertise."
 ---
 
 # My iOS Projects
 
-Here are some of the key projects I've worked on throughout my career as a Senior iOS Engineer.
+Key projects I've worked on:
 
-<div class="projects-grid">
-  {% for project in site.projects %}
-    <div class="project-card">
-             <div class="project-header">
-         {% if project.icon %}
-           <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
-         {% endif %}
-         <div class="project-title-area">
-           <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-           <p class="project-subtitle">{{ project.subtitle }}</p>
-         </div>
-       </div>
-      
-      <p class="project-description">{{ project.description }}</p>
-      
-      <div class="project-details">
-        <p><strong>Role:</strong> {{ project.role }}</p>
-        {% if project.impact %}
-          <p><strong>Impact:</strong> {{ project.impact }}</p>
-        {% endif %}
-      </div>
-      
-      <div class="project-technologies">
-        {% for tech in project.technologies %}
-          <span class="tech-tag">{{ tech }}</span>
-        {% endfor %}
-      </div>
-      
-      <ul class="project-highlights">
-        {% for highlight in project.highlights %}
-          <li>{{ highlight }}</li>
-        {% endfor %}
-      </ul>
-      
-      <div class="project-links">
-        {% if project.app_store_url != "" %}
-          <a href="{{ project.app_store_url }}" class="btn btn-primary" target="_blank">App Store</a>
-        {% endif %}
-        {% if project.github_url != "" %}
-          <a href="{{ project.github_url }}" class="btn btn-secondary" target="_blank">GitHub</a>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
+{% for project in site.projects %}
+<div class="featured-project">
+  {% if project.icon %}<img src="{{ project.icon }}" alt="{{ project.title }}">{% endif %}
+  <div>
+    <strong><a href="{{ project.url }}">{{ project.title }}</a></strong> - {{ project.subtitle }}<br>
+    {{ project.role }} | {{ project.technologies | join: ", " }}
+  </div>
 </div>
+{% endfor %}
 
 ---
 
-## Interested in Working Together?
+**Interested in working together?** I'm available for iOS development projects involving SwiftUI, StoreKit, mobile architecture, and team leadership.
 
-I'm always open to discussing new iOS development opportunities. Whether you need help with:
-
-- **SwiftUI/UIKit Development**
-- **App Store Optimization**
-- **StoreKit Integration**
-- **Mobile Architecture**
-- **Team Leadership**
-
-Feel free to [get in touch](mailto:{{ site.email }}) to discuss your project needs. 
+[Get in touch](mailto:{{ site.email }}) to discuss your project needs. 

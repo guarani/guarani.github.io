@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "Banking Applications - Roshka"
-subtitle: "Senior iOS Engineer & Engineering Lead"
-description: "Led iOS development for major Latin American banks at Roshka, building secure banking apps that ranked in Paraguay's top 5 Finance apps."
-role: "Senior iOS Engineer & Engineering Lead"
+title: "Itaú Bank Paraguay"
+subtitle: "Roshka S.A."
+description: "Led iOS development for Itaú Paraguay, building a secure bank app that ranked in Paraguay's top 5 Finance apps."
+role: "Senior iOS Engineer"
 impact: "Apps used by hundreds of thousands of users across multiple major banks"
-technologies: ["iOS", "Swift", "Objective-C", "UIKit", "Biometrics", "Certificate Pinning", "Keychain", "CocoaPods", "Git"]
+technologies: ["iOS", "Swift", "Obj-C", "UIKit"]
 highlights:
   - "Built server-driven bill payment system for multiple major banks"
   - "Led cross-platform team of 10 engineers"

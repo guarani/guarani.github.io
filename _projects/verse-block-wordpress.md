@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "Verse Block - WordPress Mobile"
-subtitle: "Poetry & Creative Writing Feature"
+title: "Shipping a Block in WordPress Mobile"
+subtitle: "WordPress.org (Sponsored Open Source)"
 description: "Poetry and creative writing feature for WordPress Mobile platform enabling rich text formatting for poets and writers."
-role: "Mobile Lead"
+role: "React Native Engineer"
 impact: "Enhanced creative writing experience for millions of WordPress users"
-technologies: ["iOS", "WordPress", "Mobile", "Rich Text", "Swift", "Objective-C"]
+technologies: ["React Native", "Swift", "Obj-C"]
 highlights:
   - "WordPress Mobile platform integration"
   - "Rich text formatting for creative writing"

@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "Day One iPad Redesign"
-subtitle: "3-Column Layout for iPad"
+title: "A Powerful New 3-Column Layout for Day One iPad"
+subtitle: "Automattic, Inc."
 description: "Developed and released a new, 3-column iPad layout in 3 months, maintaining a 99.9% crash-free session rate and avoiding regressions."
-role: "iOS Developer"
+role: "Senior iOS Developer"
 impact: "Millions of Day One iPad users"
 technologies: ["SwiftUI", "iPad", "iOS", "Swift", "UIKit"]
 highlights:

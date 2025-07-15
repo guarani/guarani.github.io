@@ -3,10 +3,6 @@
 
 @import "minima";
 
-/* Organized CSS Architecture */
-@import "scss/variables";
-@import "scss/base";
+/* Minimal custom styles */
 @import "scss/components";
-@import "scss/home";
-@import "scss/projects";
 @import "scss/blog";
