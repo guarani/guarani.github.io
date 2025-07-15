@@ -55,7 +55,7 @@ keywords: "Senior iOS Engineer, Remote iOS Developer, Swift Developer, SwiftUI E
 ## Featured Projects
 
 <div class="projects-grid">
-  {% for project in site.data.projects %}
+  {% for project in site.projects %}
     {% if project.featured %}
     <div class="project-card">
       <div class="project-header">
@@ -63,7 +63,7 @@ keywords: "Senior iOS Engineer, Remote iOS Developer, Swift Developer, SwiftUI E
           <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
         {% endif %}
         <div class="project-title-area">
-          <h3><a href="/projects/{{ project.id }}/">{{ project.title }}</a></h3>
+          <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
           <p class="project-subtitle">{{ project.subtitle }}</p>
         </div>
       </div>

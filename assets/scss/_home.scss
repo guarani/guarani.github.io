@@ -1,0 +1,253 @@
+/* Home Page Styles */
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  background: var(--gradient-subtle);
+  padding: var(--space-3xl) var(--space-md);
+  margin: var(--space-lg) 0;
+  border-radius: var(--radius-lg);
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-lg);
+  box-shadow: var(--shadow-medium);
+  transition: transform var(--transition-medium);
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.hero-subtitle {
+  color: var(--label-secondary);
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--space-sm);
+}
+
+.hero-tagline {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--primary-blue);
+  margin-bottom: var(--space-md);
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  color: var(--label-secondary);
+  max-width: 600px;
+  margin: 0 auto var(--space-lg);
+}
+
+.hero-ctas {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-lg);
+}
+
+/* Technical Expertise Section */
+.tech-expertise-section {
+  margin: var(--space-3xl) 0;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-3xl);
+}
+
+.expertise-card {
+  background: var(--background-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--separator);
+  transition: all var(--transition-medium);
+}
+
+.expertise-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.expertise-card h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-md);
+  color: var(--primary-blue);
+}
+
+.expertise-card h3::before {
+  content: "📱";
+  margin-right: var(--space-sm);
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  margin: var(--space-3xl) 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-3xl);
+}
+
+.testimonial-card {
+  background: var(--background-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--separator);
+  position: relative;
+  transition: all var(--transition-medium);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.testimonial-content {
+  margin-bottom: var(--space-lg);
+}
+
+.testimonial-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--label-secondary);
+  font-style: italic;
+  position: relative;
+}
+
+.testimonial-content p::before {
+  content: '"';
+  font-size: 3rem;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  color: var(--primary-blue);
+  opacity: 0.3;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.author-info h4 {
+  margin: 0 0 var(--space-xs) 0;
+  color: var(--label-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.author-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--label-secondary);
+}
+
+.company {
+  font-weight: var(--font-weight-medium);
+  color: var(--primary-blue);
+}
+
+/* Work With Me Section */
+.work-with-me-section {
+  margin: var(--space-3xl) 0;
+  padding: var(--space-3xl) var(--space-md);
+  background: var(--gradient-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.work-advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-3xl);
+}
+
+.advantage-card {
+  background: var(--background-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--separator);
+  transition: all var(--transition-medium);
+}
+
+.advantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-large);
+  border-color: var(--primary-blue);
+}
+
+.advantage-card h3 {
+  margin-bottom: var(--space-md);
+  font-size: 1.1rem;
+  color: var(--label-primary);
+}
+
+.advantage-card p {
+  line-height: 1.6;
+  color: var(--label-secondary);
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  margin: var(--space-3xl) 0;
+  padding: var(--space-3xl) var(--space-md);
+  background: var(--background-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--separator);
+}
+
+.contact-section h2 {
+  margin-bottom: var(--space-lg);
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: var(--space-2xl) var(--space-md);
+  }
+  
+  .hero-ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-ctas .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .work-advantages {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+} 

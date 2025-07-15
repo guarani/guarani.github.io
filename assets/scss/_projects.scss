@@ -1,0 +1,298 @@
+/* Project Detail Pages */
+.project-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.project-hero {
+  background: var(--gradient-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  margin-bottom: var(--space-3xl);
+  box-shadow: var(--shadow-small);
+  border: 1px solid var(--separator);
+}
+
+.project-header-content {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--space-lg);
+}
+
+.project-hero-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-lg);
+  margin-right: var(--space-lg);
+  flex-shrink: 0;
+  box-shadow: var(--shadow-medium);
+}
+
+.project-hero-text h1 {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--label-tertiary);
+}
+
+.project-hero-subtitle {
+  color: var(--label-secondary);
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--space-md) 0;
+}
+
+.project-meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.project-meta span {
+  font-size: 0.9rem;
+  color: var(--label-tertiary);
+  font-weight: var(--font-weight-medium);
+}
+
+.project-links-hero {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+/* Project Content */
+.project-content {
+  margin-bottom: var(--space-3xl);
+}
+
+.project-content section {
+  margin-bottom: var(--space-3xl);
+}
+
+.project-content h2 {
+  color: var(--label-primary);
+  border-bottom: 3px solid var(--primary-blue);
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  position: relative;
+}
+
+.project-content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--gradient-blue);
+}
+
+.project-content h3 {
+  color: var(--label-primary);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.highlights-list {
+  list-style: none;
+  padding: 0;
+}
+
+.highlights-list li {
+  background-color: var(--background-secondary);
+  border-left: 4px solid var(--primary-blue);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-sm);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  position: relative;
+}
+
+.highlights-list li::before {
+  content: '→';
+  position: absolute;
+  left: var(--space-sm);
+  color: var(--primary-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+.challenges-content, .results-content {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--separator);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  line-height: 1.6;
+}
+
+.project-body {
+  line-height: 1.6;
+  color: var(--label-secondary);
+}
+
+.project-footer {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--separator);
+}
+
+.project-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+/* Modern Project Hero Styles */
+.project-hero-custom {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-bottom: var(--space-2xl);
+  border-radius: 0;
+  background: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-hero-image {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+
+.project-hero-overlay {
+  display: none;
+}
+
+.project-hero-custom .project-header-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: var(--space-3xl) var(--space-md) 0;
+  text-align: center;
+}
+
+.project-hero-custom .project-hero-text h1 {
+  color: var(--label-primary);
+  font-size: 3.25rem;
+  font-weight: 800;
+  margin-bottom: var(--space-lg);
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.project-hero-custom .project-hero-subtitle {
+  color: var(--label-secondary);
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: var(--space-2xl);
+  text-align: left;
+}
+
+.project-hero-custom .project-meta {
+  margin-bottom: var(--space-2xl);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+.project-hero-custom .project-meta span {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-lg);
+  font-weight: var(--font-weight-medium);
+  color: var(--label-primary);
+}
+
+.project-hero-custom .project-links-hero {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.project-hero-custom .app-store-badge {
+  transition: transform var(--transition-medium);
+}
+
+.project-hero-custom .app-store-badge:hover {
+  transform: translateY(-2px);
+}
+
+.project-hero-custom .app-store-badge img {
+  height: 40px;
+  width: auto;
+}
+
+.project-hero-custom .github-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-sm) var(--space-lg);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--label-primary);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: all var(--transition-medium);
+  border: 1px solid var(--separator);
+}
+
+.project-hero-custom .github-btn:hover {
+  background-color: var(--label-primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.project-hero-custom .github-btn svg {
+  margin-right: var(--space-sm);
+}
+
+.project-hero-custom .btn svg {
+  fill: currentColor;
+}
+
+.project-hero-default {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+/* Projects Listing Page */
+.projects-listing {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.projects-listing h1 {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-hero-custom .project-hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .project-hero-custom .project-hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .project-hero-custom .project-meta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-navigation {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-hero-image {
+    height: 600px;
+  }
+} 

@@ -11,14 +11,14 @@ keywords: "iOS Projects Portfolio, Day One Automattic, WordPress Mobile iOS, Swi
 Here are some of the key projects I've worked on throughout my career as a Senior iOS Engineer.
 
 <div class="projects-grid">
-  {% for project in site.data.projects %}
+  {% for project in site.projects %}
     <div class="project-card">
              <div class="project-header">
          {% if project.icon %}
            <img src="{{ project.icon }}" alt="{{ project.title }}" class="project-icon">
          {% endif %}
          <div class="project-title-area">
-           <h3><a href="/projects/{{ project.id }}/">{{ project.title }}</a></h3>
+           <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
            <p class="project-subtitle">{{ project.subtitle }}</p>
          </div>
        </div>
