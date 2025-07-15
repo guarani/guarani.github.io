@@ -15,7 +15,7 @@ app_store_url: "https://apps.apple.com/app/day-one/id1044867788"
 github_url: ""
 screenshot: "/assets/images/day-one-screenshot.jpg"
 header_image: "/assets/images/ipad-framed.png"
-icon: "/assets/images/dayone-icon.png"
+icon: "/assets/images/dayone/DayOne Logomark Color.svg"
 featured: true
 challenges: |
   **Legacy Codebase**: Working with an established app serving millions of users while implementing major UI changes without breaking existing functionality.

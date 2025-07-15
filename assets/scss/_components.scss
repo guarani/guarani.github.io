@@ -6,4 +6,18 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin: 20px 0;
+}
+
+/* Featured work with icons */
+.featured-project {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.featured-project img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
 } 
