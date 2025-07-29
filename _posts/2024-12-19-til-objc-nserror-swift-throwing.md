@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TIL: Obj-C NSError** Methods Become Swift Throwing Functions"
+title: "How Objective-C Error Handling Works in Swift"
 date: 2024-12-19 10:00:00 -0300
 categories: swift objective-c til
 tags: [TIL, Swift, Objective-C, Errors, Interop]
