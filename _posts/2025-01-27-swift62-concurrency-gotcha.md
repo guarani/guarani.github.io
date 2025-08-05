@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Swift 6.2 @concurrent in Practice"
-date: 2025-08-24 15:00:00 -0300
+date: 2025-08-04 15:00:00 -0300
 categories: swift concurrency instruments performance
-tags: [Swift, Swift6.2, Concurrency, Instruments, @concurrent, Performance]
-excerpt: "@concurrent in practice"
+tags: [Swift, Swift6.2, Concurrency, "@concurrent", Performance]
+excerpt: "Example of how to use Swift 6.2's @concurrent attribute in practice."
 ---
 
 ## New Changes to Concurrency
