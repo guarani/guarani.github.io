@@ -1,14 +1,14 @@
 ---
 ---
 // Variables
-@import "scss/variables";
+@import "variables";
 
 // Base reset and typography
-@import "scss/base";
+@import "base";
 
 // Components and sections
-@import "scss/components";
-@import "scss/home";
-@import "scss/projects";
-@import "scss/blog";
-@import "scss/syntax";
+@import "components";
+@import "home";
+@import "projects";
+@import "blog";
+@import "syntax";
