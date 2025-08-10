@@ -1,47 +1,20 @@
-/* Minimal fixes only - let minima handle everything else */
+/* Call-to-action group */
+.cta-buttons { display: flex; gap: 12px; margin: 24px 0; flex-wrap: wrap; }
 
-/* Featured work with icons */
-.featured-project {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
+/* Project visuals */
+.project-icon { width: 72px; height: 72px; margin-bottom: 12px; }
+
+/* Hero */
+.hero { padding: 48px 0 24px; }
+.hero__inner { display: grid; grid-template-columns: 1.2fr .8fr; gap: 24px; align-items: center; }
+.hero__content .eyebrow { color: $brand-accent; letter-spacing: .06em; text-transform: uppercase; font-size: $scale-1; margin: 0 0 8px; }
+.hero__title { font-size: $scale-8; line-height: 1.05; margin: 0 0 8px; }
+.hero__subtitle { color: $brand-muted; font-size: $scale-3; margin: 0 0 16px; }
+.hero__stats { list-style: none; padding: 0; margin: 16px 0 0; display: flex; gap: 20px; color: $brand-muted; }
+.hero__stats strong { color: $brand-text; }
+
+@media (max-width: 860px) {
+  .hero__inner { grid-template-columns: 1fr; }
+  .hero__media { order: -1; }
+  .hero__title { font-size: $scale-7; }
 }
-
-.featured-project img {
-  width: 32px;
-  height: 32px;
-  flex-shrink: 0;
-}
-
-/* Project page icons */
-.project-icon {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 16px;
-}
-
-/* Simple button styles */
-.cta-buttons {
-  display: flex;
-  gap: 12px;
-  margin: 24px 0;
-  flex-wrap: wrap;
-}
-
-.cta-buttons a {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #0366d6;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-}
-
-.cta-buttons a:hover {
-  background-color: #0256cc;
-  color: white;
-  text-decoration: none;
-} 

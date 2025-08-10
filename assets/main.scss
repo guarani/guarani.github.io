@@ -1,8 +1,14 @@
 ---
 ---
+// Variables
+@import "scss/variables";
 
-@import "minima";
+// Base reset and typography
+@import "scss/base";
 
-/* Minimal custom styles */
-@import "components";
-@import "blog";
+// Components and sections
+@import "scss/components";
+@import "scss/home";
+@import "scss/projects";
+@import "scss/blog";
+@import "scss/syntax";

@@ -21,7 +21,9 @@
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
+  {% if site.twitter_username %}
   <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  {% endif %}
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ site.profile_image | absolute_url }}">
@@ -52,6 +54,7 @@
   <link rel="icon" type="image/jpeg" href="{{ '/assets/images/profile.jpg' | absolute_url }}">
   
   <!-- Stylesheets -->
+  <link rel="preload" as="style" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   
   <!-- Structured Data (JSON-LD) -->

@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="eyebrow">{{ site.job_title }}</p>
+      <h1 class="hero__title">{{ site.author }}</h1>
+      <p class="hero__subtitle">{{ site.description }}</p>
+      <div class="cta-buttons">
+        <a class="btn btn--primary" href="https://calendly.com/pschrottky" target="_blank" rel="noopener">Schedule Call</a>
+        <a class="btn btn--secondary" href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn" href="mailto:{{ site.email }}">Email Me</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>{{ site.years_experience }}+ yrs</strong> iOS experience</li>
+        <li><strong>Millions</strong> of users reached</li>
+        <li><strong>99.9%</strong> crash‑free sessions</li>
+      </ul>
+    </div>
+    <div class="hero__media">
+      <img class="avatar-xl" src="{{ site.profile_image }}" alt="{{ site.author }}">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>Featured Work</h2>
+      <a class="section__link" href="/projects/">View all projects →</a>
+    </div>
+    <div class="grid grid--cards">
+      {% assign featured_projects = site.projects | where: "featured", true %}
+      {% if featured_projects.size == 0 %}
+        {% assign featured_projects = site.projects | slice: 0, 3 %}
+      {% endif %}
+      {% for project in featured_projects %}
+        <article class="card project-card">
+          <a href="{{ project.url }}" class="card__body">
+            {% if project.icon %}
+              <img class="project-card__icon" src="{{ project.icon }}" alt="{{ project.title }}">
+            {% endif %}
+            <h3 class="card__title">{{ project.title }}</h3>
+            <p class="card__meta">{{ project.subtitle }}</p>
+            {% if project.description %}
+              <p class="card__desc">{{ project.description }}</p>
+            {% endif %}
+            {% if project.technologies %}
+              <p class="card__tags">{{ project.technologies | join: " • " }}</p>
+            {% endif %}
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <h2>Latest Writing</h2>
+      <a class="section__link" href="/blog/">View all posts →</a>
+    </div>
+    <div class="grid grid--cards">
+      {% for post in site.posts limit:3 %}
+        <article class="card post-card">
+          <a class="card__body" href="{{ post.url | relative_url }}">
+            <h3 class="card__title">{{ post.title }}</h3>
+            <p class="card__meta">{{ post.date | date: "%B %d, %Y" }}</p>
+            {% if post.excerpt %}
+              <p class="card__desc">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+            {% endif %}
+          </a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container cta-strip__inner">
+    <h3>Ready to ship your iOS app?</h3>
+    <div class="cta-buttons">
+      <a class="btn btn--primary" href="https://calendly.com/pschrottky" target="_blank" rel="noopener">Book a call</a>
+      <a class="btn" href="mailto:{{ site.email }}">Email me</a>
+    </div>
+  </div>
+</section>

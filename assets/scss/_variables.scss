@@ -1,1 +1,27 @@
-/* No custom variables needed - using standard CSS values and minima defaults */ 
+$brand-bg: #0a0b0d;
+$brand-surface: #0f1115;
+$brand-elevated: #141821;
+$brand-text: #e6e9ee;
+$brand-muted: #a2a9b3;
+$brand-primary: #0ea5e9; // azure
+$brand-primary-600: #0284c7;
+$brand-accent: #22d3ee; // cyan accent
+$brand-link: #7dd3fc;
+
+$container-max: 1040px;
+$radius: 12px;
+$radius-sm: 8px;
+$shadow: 0 8px 24px rgba(0,0,0,0.35);
+$shadow-soft: 0 6px 16px rgba(0,0,0,0.25);
+
+$font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+$scale-1: 0.875rem;
+$scale-2: 1rem;
+$scale-3: 1.125rem;
+$scale-4: 1.25rem;
+$scale-5: 1.5rem;
+$scale-6: 1.875rem;
+$scale-7: 2.25rem;
+$scale-8: 3rem;

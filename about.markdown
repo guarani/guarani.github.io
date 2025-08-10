@@ -2,41 +2,31 @@
 layout: page
 title: About
 permalink: /about/
-description: "Paul Von Schrottky - Senior iOS Engineer from Paraguay with 10+ years experience. Led teams at Automattic (Day One), generated $100K revenue at WordPress Mobile."
-keywords: "Senior iOS Engineer, Remote iOS Developer Paraguay, Automattic Day One Engineer, WordPress Mobile Lead, Swift SwiftUI Expert"
+description: "Paul Von Schrottky - Senior iOS Engineer from Australia with 12+ years experience. Led teams at Automattic (WordPress) and Roshka."
+keywords: "Senior iOS Engineer, Remote iOS Developer, Automattic Day One Engineer, WordPress Mobile Lead, Swift SwiftUI Expert"
 ---
 
-# Paul Von Schrottky
 ## Senior iOS Engineer
 
-**12+ years building iOS apps for millions of users. Based in Paraguay, working remotely with global teams.**
+I build, lead, and ship iOS apps used by millions. Over the last {{ site.years_experience }}+ years I’ve delivered high‑impact releases for Day One at Automattic, WordPress Mobile, and leading banks in Paraguay.
 
-### Experience
+### Highlights
+- Day One iPad redesign: shipped 3‑column layout in 3 months with 99.9% crash‑free sessions
+- WordPress Mobile: led community refocus to core features across a massive codebase
+- Banking apps: delivered secure, top‑ranked Finance apps with biometrics and server‑driven UI
 
-**Automattic (5+ years) - Day One & WordPress**
-- Implemented a powerful new 3-column layout for the award-winning Day One app
-- Led distributed mobile teams 
-- Contributed to the open-source Gutenberg project 
+### Expertise
+Swift, SwiftUI, UIKit, Combine, StoreKit, MVVM, Clean Architecture, Unit Testing, CI/CD
 
-**WeightWatchers - Health**
-- Shipped banking apps for major banks such as Itaú PY and BBVA PY
-
-**Roshka - Banking Applications**
-- Shipped banking apps for major banks such as Itaú PY and BBVA PY
-
-### Setup
-- Paraguay timezone (UTC-3) with US business hours availability
-- 5+ years US tax and business compliance
-
-### Skills
-Swift, SwiftUI, UIKit, StoreKit, MVVM, Clean Architecture, Unit Testing, CI/CD
+### How I work
+- Remote‑first, async collaboration, clear written communication
+- Product‑minded: partner with design and PM to ship outcomes, not just code
+- Pragmatic engineering: tests, metrics, and progressive rollout
 
 <div class="cta-buttons">
-  <a href="https://calendly.com/pschrottky" target="_blank">Schedule Call</a>
-  <a href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" target="_blank">Download Resume</a>
-  <a href="mailto:{{ site.email }}">Email Me</a>
+  <a class="btn btn--primary" href="https://calendly.com/pschrottky" target="_blank">Schedule Call</a>
+  <a class="btn btn--secondary" href="/assets/Paul%20Von%20Schrottky%20-%20Resume.pdf" target="_blank">Download Resume</a>
+  <a class="btn" href="mailto:{{ site.email }}">Email Me</a>
 </div>
 
----
-
-*Asunción, Paraguay 🇵🇾 | Working worldwide 🌍*
+*Asunción, Paraguay · Working remotely*

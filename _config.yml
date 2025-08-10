@@ -29,7 +29,6 @@ url: "https://schrottky.dev" # the base hostname & protocol for your site
 
 # SEO and Social
 keywords: "Senior iOS Engineer, Swift Developer, SwiftUI, Remote iOS Developer, iOS Consultant, Automattic, WordPress Mobile, Paraguay Developer"
-twitter_username: pschrottky
 github_username: guarani
 linkedin_username: paulvs
 stackoverflow: users/1305067/paulvs
@@ -52,8 +51,6 @@ social:
     url: "https://github.com/guarani"
   - platform: "LinkedIn" 
     url: "https://linkedin.com/in/paulvs"
-  - platform: "Twitter"
-    url: "https://twitter.com/pschrottky"
   - platform: "Stack Overflow"
     url: "https://stackoverflow.com/users/1305067/paulvs"
 
@@ -64,9 +61,15 @@ collections:
     permalink: /:collection/:name/
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+
+# Markdown and code highlighting
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Sass/SCSS settings - suppress deprecation warnings from minima theme
 sass:

@@ -1,12 +1,7 @@
-/* Minimal Blog Styles - Use Minima Defaults */
+/* Blog */
+.post__header { margin-bottom: 12px; }
+.post__meta { color: $brand-muted; }
+.post-card .card__meta { color: $brand-muted; }
 
-.post-preview {
-  border-bottom: 1px solid #e1e4e8;
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.post-meta {
-  color: #666;
-  font-size: 0.9em;
-} 
+/* Add spacing before post footer actions */
+.post__footer { margin-top: 20px; }
