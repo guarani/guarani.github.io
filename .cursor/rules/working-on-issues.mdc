@@ -1,0 +1,7 @@
+---
+description: Working on issues
+alwaysApply: false
+---
+
+- Assume the gh command-line tool is installed and has access to my GitHub accountgit 
+- Use the gh command line tool to work on GitHub issues

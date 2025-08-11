@@ -1,0 +1,21 @@
+---
+description: Use this rule when commiting using git
+alwaysApply: false
+---
+
+### Commit message format
+- **Subject**: ≤72 chars, Imperative, Capitalized, no period
+- **Blank line** after subject
+- **Body**: explain what/why, wrap at 72 chars; bullets ok
+- Should complete: “If applied, this commit will <subject>”
+
+### References
+- Header: "[#123] …" or "CAT-123 …"
+- Body: "Fixes #123" (auto-links on GitHub)
+
+### Example
+```
+Add CPU arch filter scheduler support
+
+Explain what changed and why, wrapped at 72 characters. Bullets are ok.
+```
